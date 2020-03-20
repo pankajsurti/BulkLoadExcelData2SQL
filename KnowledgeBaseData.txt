@@ -1,0 +1,26 @@
+﻿/****** Object:  Table [dbo].[KnowledgeBaseData]    Script Date: 2/13/2020 4:18:39 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[KnowledgeBaseData](
+	[number] [nvarchar](100) NULL,
+	[kb_category] [nvarchar](100) NULL,
+	[description] [nvarchar](400) NULL,
+	[system_view_count] [nvarchar](100) NULL,
+	[article_identification] [nvarchar](400) NULL,
+	[system_created_on] [nvarchar](100) NULL,
+	[kb_knowledge_base] [nvarchar](100) NULL,
+	[meta] [nvarchar](max) NULL,
+	[meta_description] [nvarchar](max) NULL,
+	[u_va_notestoagent] [nvarchar](max) NULL,
+	[published] [nvarchar](100) NULL,
+	[rating] [nvarchar](100) NULL,
+	[text] [nvarchar](max) NULL,
+	[user_count] [nvarchar](100) NULL,
+	[system_updated_on] [nvarchar](100) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
